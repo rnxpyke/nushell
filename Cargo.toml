@@ -140,6 +140,10 @@ name = "nu_plugin_match"
 path = "src/plugins/match.rs"
 
 [[bin]]
+name = "nu_plugin_parse"
+path = "src/plugins/parse.rs"
+
+[[bin]]
 name = "nu_plugin_sys"
 path = "src/plugins/sys.rs"
 required-features = ["sys"]
